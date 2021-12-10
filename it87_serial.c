@@ -23,6 +23,7 @@
 #include <linux/slab.h> /* kcalloc */
 #include <linux/uaccess.h> /* copy_to_user */
 #include <linux/delay.h> /* wait for chip ready */
+#include <asm/io.h>
 
 #define DRVNAME	"it87_serial"
 
